@@ -67,7 +67,7 @@ const ExperienceSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-blue-400 to-blue-300 bg-clip-text text-transparent">
               Professional Journey
             </span>
           </h2>
@@ -108,7 +108,7 @@ const ExperienceSection = () => {
                 <ul className="space-y-3 mb-6">
                   {exp.highlights.map((highlight, idx) => (
                     <li key={idx} className="text-white/80 flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-gradient-to-r from-purple-400 to-blue-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <div className="w-2 h-2 bg-gradient-to-r from-blue-400 to-blue-300 rounded-full mt-2 flex-shrink-0"></div>
                       <span>{highlight}</span>
                     </li>
                   ))}

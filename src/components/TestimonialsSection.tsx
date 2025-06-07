@@ -53,7 +53,7 @@ const TestimonialsSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-blue-400 to-blue-300 bg-clip-text text-transparent">
               What People Say
             </span>
           </h2>
@@ -73,20 +73,20 @@ const TestimonialsSection = () => {
               <Card className="backdrop-blur-md bg-white/5 border-white/10 p-8 hover:bg-white/10 transition-all duration-300 hover:scale-105 hover:shadow-xl group h-full">
                 <div className="flex flex-col h-full">
                   <div className="mb-6">
-                    <Quote className="text-purple-400 mb-4 group-hover:text-purple-300 transition-colors duration-300" size={32} />
+                    <Quote className="text-blue-400 mb-4 group-hover:text-blue-300 transition-colors duration-300" size={32} />
                     <p className="text-white/80 leading-relaxed group-hover:text-white transition-colors duration-300">
                       "{testimonial.quote}"
                     </p>
                   </div>
                   
                   <div className="mt-auto flex items-center space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center text-white font-bold">
+                    <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-500 rounded-full flex items-center justify-center text-white font-bold">
                       {testimonial.avatar}
                     </div>
                     <div>
                       <h4 className="text-white font-semibold">{testimonial.author}</h4>
                       <p className="text-white/60 text-sm">{testimonial.role}</p>
-                      <p className="text-purple-300 text-sm">{testimonial.company}</p>
+                      <p className="text-blue-300 text-sm">{testimonial.company}</p>
                     </div>
                   </div>
                 </div>

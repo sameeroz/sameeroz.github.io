@@ -40,7 +40,7 @@ const ToolsGrid = () => {
       name: "RAG Systems",
       description: "Retrieval-Augmented Generation",
       icon: "🔍",
-      color: "from-purple-500 to-violet-500"
+      color: "from-blue-600 to-blue-500"
     },
     {
       name: "Vector DBs",
@@ -52,7 +52,7 @@ const ToolsGrid = () => {
       name: "AI Agents",
       description: "Autonomous intelligent systems",
       icon: "🧠",
-      color: "from-pink-500 to-rose-500"
+      color: "from-blue-700 to-blue-600"
     },
     {
       name: "Python",
@@ -64,7 +64,7 @@ const ToolsGrid = () => {
       name: "Hugging Face",
       description: "Model deployment & fine-tuning",
       icon: "🤗",
-      color: "from-indigo-500 to-purple-500"
+      color: "from-blue-600 to-blue-700"
     },
     {
       name: "TensorFlow",
@@ -85,7 +85,7 @@ const ToolsGrid = () => {
       <div className="max-w-6xl mx-auto">
         <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-blue-400 to-blue-300 bg-clip-text text-transparent">
               My Tech Stack
             </span>
           </h2>
@@ -107,7 +107,7 @@ const ToolsGrid = () => {
                   <div className={`w-16 h-16 mx-auto mb-4 rounded-2xl bg-gradient-to-r ${tool.color} flex items-center justify-center text-2xl group-hover:scale-110 transition-transform duration-300`}>
                     {tool.icon}
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-2 group-hover:text-purple-300 transition-colors duration-300">
+                  <h3 className="text-xl font-bold text-white mb-2 group-hover:text-blue-300 transition-colors duration-300">
                     {tool.name}
                   </h3>
                   <p className="text-white/70 text-sm group-hover:text-white/90 transition-colors duration-300">

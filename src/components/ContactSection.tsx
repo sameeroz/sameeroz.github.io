@@ -57,7 +57,7 @@ const ContactSection = () => {
       <div className="max-w-4xl mx-auto">
         <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
-            <span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-blue-400 to-blue-300 bg-clip-text text-transparent">
               Let's Work Together
             </span>
           </h2>
@@ -70,7 +70,7 @@ const ContactSection = () => {
         <div className={`text-center mb-16 transition-all duration-1000 delay-300 ${isVisible ? 'scale-100 opacity-100' : 'scale-95 opacity-0'}`}>
           <Button
             size="lg"
-            className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-500 hover:to-blue-500 text-white border-0 px-12 py-8 text-2xl font-bold rounded-2xl shadow-2xl hover:shadow-purple-500/25 transition-all duration-300 hover:scale-105 transform"
+            className="bg-gradient-to-r from-blue-700 to-blue-600 hover:from-blue-600 hover:to-blue-500 text-white border-0 px-12 py-8 text-2xl font-bold rounded-2xl shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 hover:scale-105 transform"
           >
             <a href="mailto:ssitbook1@gmail.com" className="flex items-center space-x-3">
               <Mail size={28} />
@@ -91,7 +91,7 @@ const ContactSection = () => {
               <Card className="backdrop-blur-md bg-white/5 border-white/10 p-6 hover:bg-white/10 transition-all duration-300 hover:scale-105 group">
                 {info.link ? (
                   <a href={info.link} className="flex items-center space-x-4 text-white/80 hover:text-white transition-colors duration-300">
-                    <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-blue-500 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                    <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-500 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                       <info.icon size={20} className="text-white" />
                     </div>
                     <div>
@@ -101,7 +101,7 @@ const ContactSection = () => {
                   </a>
                 ) : (
                   <div className="flex items-center space-x-4 text-white/80">
-                    <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-blue-500 rounded-xl flex items-center justify-center">
+                    <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-500 rounded-xl flex items-center justify-center">
                       <info.icon size={20} className="text-white" />
                     </div>
                     <div>
@@ -119,7 +119,7 @@ const ContactSection = () => {
         <div className={`text-center transition-all duration-1000 delay-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
           <p className="text-white/60 mb-6">Or find me on</p>
           <div className="flex justify-center space-x-6">
-            <a href="#" className="w-14 h-14 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-300 group">
+            <a href="#" className="w-14 h-14 bg-gradient-to-r from-blue-600 to-blue-500 rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-300 group">
               <Linkedin size={24} className="text-white group-hover:scale-110 transition-transform duration-300" />
             </a>
             <a href="#" className="w-14 h-14 bg-gradient-to-r from-slate-700 to-slate-600 rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-300 group">
