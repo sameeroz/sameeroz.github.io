@@ -29,7 +29,7 @@ const HeroSection = () => {
         {/* Main heading */}
         <div className={`transition-all duration-1000 delay-500 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            <span className="bg-gradient-to-r from-white via-blue-200 to-blue-200 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-white via-blue-200 to-blue-300 bg-clip-text text-transparent">
               AI Engineer
             </span>
             <br />
@@ -43,8 +43,8 @@ const HeroSection = () => {
         <div className={`transition-all duration-1000 delay-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
           <p className="text-xl md:text-2xl text-white/70 mb-8 max-w-3xl mx-auto leading-relaxed">
             Specializing in <span className="text-blue-300 font-semibold">RAG systems</span>, 
-            <span className="text-blue-300 font-semibold"> LLM integration</span>, and 
-            <span className="text-indigo-300 font-semibold"> AI agents</span> that solve real-world problems
+            <span className="text-blue-400 font-semibold"> LLM integration</span>, and 
+            <span className="text-blue-500 font-semibold"> AI agents</span> that solve real-world problems
           </p>
         </div>
 
@@ -53,7 +53,7 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               size="lg" 
-              className="bg-gradient-to-r from-blue-600 to-blue-600 hover:from-blue-500 hover:to-blue-500 text-white border-0 px-8 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+              className="bg-gradient-to-r from-blue-700 to-blue-600 hover:from-blue-600 hover:to-blue-500 text-white border-0 px-8 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
             >
               Let's Work Together
             </Button>
