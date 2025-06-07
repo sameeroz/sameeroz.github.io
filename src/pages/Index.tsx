@@ -18,10 +18,10 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white overflow-hidden">
       {/* Animated background elements */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-4 -right-4 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
+        <div className="absolute -top-4 -right-4 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
         <div className="absolute -bottom-8 -left-4 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse delay-1000"></div>
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-indigo-500 rounded-full mix-blend-multiply filter blur-xl opacity-10 animate-pulse delay-500"></div>
       </div>
@@ -31,21 +31,25 @@ const Index = () => {
         <div className="backdrop-blur-md bg-white/5 border-b border-white/10">
           <div className="container mx-auto px-6 py-4">
             <div className="flex justify-between items-center">
-              <div className="text-xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
+              <div className="text-xl font-bold bg-gradient-to-r from-blue-400 to-blue-400 bg-clip-text text-transparent">
                 Sameer Saeed Anwar
               </div>
               <div className="flex space-x-4">
                 <Button variant="ghost" size="sm" className="text-white/80 hover:text-white hover:bg-white/10">
-                  <a href="mailto:ssitbook1@gmail.com" className="flex items-center space-x-2">
+                  <a href="mailto:gdrboy11@gmail.com" className="flex items-center space-x-2">
                     <Mail size={16} />
                     <span className="hidden sm:inline">Contact</span>
                   </a>
                 </Button>
                 <Button variant="ghost" size="sm" className="text-white/80 hover:text-white hover:bg-white/10">
-                  <Linkedin size={16} />
+                  <a href="https://www.linkedin.com/in/sameer-anwar-a8b1b5225/">
+                    <Linkedin size={16} />
+                  </a>
                 </Button>
                 <Button variant="ghost" size="sm" className="text-white/80 hover:text-white hover:bg-white/10">
-                  <Github size={16} />
+                  <a href="https://github.com/sameeroz">
+                    <Github size={16} />
+                  </a>
                 </Button>
               </div>
             </div>
