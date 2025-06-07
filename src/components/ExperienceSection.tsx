@@ -28,7 +28,7 @@ const ExperienceSection = () => {
   const experiences = [
     {
       title: "AI Engineer",
-      company: "NeuroMind",
+      company: "NexuMind",
       period: "May 2024 - Present",
       location: "Remote",
       highlights: [
@@ -36,13 +36,13 @@ const ExperienceSection = () => {
         "Integrated LLMs with retrieval systems using vector databases and prompt engineering",
         "Optimized AI workflows and reduced model inference time"
       ],
-      tech: ["Python", "LangChain", "OpenAI", "Vector DBs"]
+      tech: ["Python", "LangChain", "OpenAI", "Vector DBs", "Open source models", "AI Agents"]
     },
     {
       title: "Mobile Developer",
-      company: "InnovasTech",
+      company: "Innova-Tech",
       period: "Dec 2021 - Jun 2024",
-      location: "Remote",
+      location: "In-person",
       highlights: [
         "Developed mobile apps using Flutter and Firebase",
         "Led UX/UI design for responsive and user-friendly interfaces"
@@ -58,7 +58,7 @@ const ExperienceSection = () => {
         "Developed a web application for Yemen Medical Council",
         "Implemented relational databases and custom authentication modules"
       ],
-      tech: ["Web Development", "Database Design", "Authentication"]
+      tech: ["Web Development", "Database Design", "Authentication", "Laravel"]
     }
   ];
 
@@ -67,7 +67,7 @@ const ExperienceSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-blue-400 to-blue-400 bg-clip-text text-transparent">
               Professional Journey
             </span>
           </h2>
@@ -108,7 +108,7 @@ const ExperienceSection = () => {
                 <ul className="space-y-3 mb-6">
                   {exp.highlights.map((highlight, idx) => (
                     <li key={idx} className="text-white/80 flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-gradient-to-r from-purple-400 to-blue-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <div className="w-2 h-2 bg-gradient-to-r from-blue-400 to-blue-400 rounded-full mt-2 flex-shrink-0"></div>
                       <span>{highlight}</span>
                     </li>
                   ))}
